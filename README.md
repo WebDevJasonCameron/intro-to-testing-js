@@ -283,3 +283,6 @@ Our next exercise is to follow the TDD workflow to develop incremental tests and
 - [Sandi Metz on testing and what to test](https://www.youtube.com/watch?v=URSWYvyc42M)
 - [Bob Martin on TDD and Code Quality](https://www.youtube.com/watch?v=is41fgDrqn0)
 - [Three Laws of TDD](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd)
+
+
+*Testing a theory with this text...
