@@ -52,10 +52,13 @@ function isVowel(input){
     else return false;
 }
 
+// add Function
+function add(num1, num2){
+    if(isNaN(num1) || isNaN(num2)) return NaN;
+    else return num1 + num2;
+}
 
-
-
-
+console.log(add('banana', 'split'));
 
 
 

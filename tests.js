@@ -131,8 +131,33 @@ describe('isVowel', function () {
 });
 
 
-
-
+// add Function
+describe('add', function () {
+    it('should be a defined function', function () {
+        expect(typeof add).toBe('function');
+    });
+    it('should return a number', function () {
+        expect(typeof add()).toBe('number');
+    });
+    it('should return a 5 if num1 input is 2 and num2 input is 3', function () {
+        expect(add(2, 3)).toBe(5);
+    });
+    it('should return a -12 if num1 input is -3 and num2 input is -9', function () {
+        expect(add(-3, -9)).toBe(-12);
+    });
+    it('should return a 11 if num1 input is 5 and num2 input is 6', function () {
+        expect(add(5, 6)).toBe(11);
+    });
+    it('should return a 6 if num1 input is -4 and num2 input is 10', function () {
+        expect(add(-4, 10)).toBe(6);
+    });
+    it('should return NaN if num1 input is "banana" and num2 input is "split"', function () {
+        expect(add('banana', 'split')).toBe(NaN);
+    });
+    it('should return NaN if num1 and num2 inputs are empty', function () {
+        expect(add()).toBe(NaN);
+    });
+});
 
 
 
