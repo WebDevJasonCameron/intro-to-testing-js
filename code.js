@@ -9,6 +9,8 @@ function helloWorld() {
 //     return "Hello, Jane!";
 // }
 
+
 function sayHello(input) {
+    if(typeof input === 'undefined' || input === true || input === false) input = 'World'
     return "Hello, " + input + "!";
 }
