@@ -36,3 +36,34 @@ function isEven(input){
     return input % 2 === 0;
 
 }
+
+// isVowel Function
+
+// Refactor
+// function isVowel(input){
+//     if(input === 'a')return true;
+//     else if(input === 'A')return true;
+//     else return false;
+// }
+
+function isVowel(input){
+    if (input === 'a' || input === 'e' || input === 'i' || input === 'o' || input === 'u') return true;
+    else if (input === 'A' || input === 'E' || input === 'I' || input === 'O' || input === 'U') return true;
+    else return false;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

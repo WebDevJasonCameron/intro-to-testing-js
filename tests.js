@@ -96,6 +96,54 @@ describe('isEven', function () {
 });
 
 
+// isVowel Function
+describe('isVowel', function () {
+    it('should be a defined function', function () {
+        expect(typeof isVowel).toBe('function');
+    });
+    it('should return a boolean', function () {
+        expect(typeof isVowel()).toBe('boolean');
+    });
+    it('should return true if input is "a"', function () {
+        expect(isVowel('a')).toBe(true);
+    });
+    it('should return true if input is "A"', function () {
+        expect(isVowel('A')).toBe(true);
+    });
+    it('should return false if input is "y"', function () {
+        expect(isVowel('y')).toBe(false);
+    });
+    it('should return false if input is "4"', function () {
+        expect(isVowel('4')).toBe(false);
+    });
+    it('should return false if input is true', function () {
+        expect(isVowel(true)).toBe(false);
+    });
+    it('should return false if input is false', function () {
+        expect(isVowel(false)).toBe(false);
+    });
+    it('should return false if input is "banana', function () {
+        expect(isVowel("banana")).toBe(false);
+    });
+    it('should return false if input is empty', function () {
+        expect(isVowel()).toBe(false);
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
