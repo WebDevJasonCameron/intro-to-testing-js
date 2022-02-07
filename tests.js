@@ -152,10 +152,10 @@ describe('add', function () {
         expect(add(-4, 10)).toBe(6);
     });
     it('should return NaN if num1 input is "banana" and num2 input is "split"', function () {
-        expect(add('banana', 'split')).toBe(NaN);
+        expect(isNaN(add('banana', 'split')));
     });
     it('should return NaN if num1 and num2 inputs are empty', function () {
-        expect(add()).toBe(NaN);
+        expect(isNaN(add()));
     });
 });
 
