@@ -1,5 +1,22 @@
 # My process
 
+## 2022 02 07 | Ex Completed
+Completed Ex with complications.  Need to actually read the Jasmine text to understand how this should be done in the future.  Here is the following code that helped me finish the last two parts in number 13...
+
+```javascript
+    it('should return NaN when passed 2 and "apples"', function(){
+        expect(add("banana", "split")).toBeNaN();
+```
+It also worked with the following code (however, I'm not sure if this is truely a fix)
+```javascript
+    it('should return NaN if num1 input is "banana" and num2 input is "split"', function () {
+        expect(isNaN(add('banana', 'split')));
+});
+```
+
+
+---
+
 ## 2022 02 04 | Working in Class
 I couldn't wrap my head around the process of setting up tests.  That is why I decided to wait for the class.  Today, we are now working on the subject in our lectures.  
 
